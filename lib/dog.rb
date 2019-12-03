@@ -20,7 +20,7 @@ class Dog
     @@all.map do |name|
       puts "#{name}"
     end
-    binding.pry
-
   end
+  binding.pry
+
 end
