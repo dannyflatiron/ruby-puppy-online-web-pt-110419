@@ -11,7 +11,7 @@ class Dog
   def self.all
     @@all
   end
-
+  binding.pry
   def self.clear_all
     @@all.clear
   end
@@ -21,6 +21,5 @@ class Dog
       puts "#{name}"
     end
   end
-  binding.pry
 
 end
