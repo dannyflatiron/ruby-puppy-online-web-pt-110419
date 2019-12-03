@@ -6,12 +6,14 @@ class Dog
   def initialize(name)
     @name = name
     @@all << self
+    binding.pry
+
   end
 
   def self.all
     @@all
   end
-  binding.pry
+
   def self.clear_all
     @@all.clear
   end
