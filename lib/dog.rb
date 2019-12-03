@@ -18,8 +18,9 @@ class Dog
 
   def self.print_all
     @@all.map do |name|
-      puts "#{name}"
       binding.pry
+
+      puts "#{name}"
     end
   end
 end
