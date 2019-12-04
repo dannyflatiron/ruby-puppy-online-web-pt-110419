@@ -20,9 +20,11 @@ attr_reader :name
   end
 
   def self.print_all
-    @@all.each do |name|
-      puts "#{name.name}"
+    @@all.each do |dog|
+      puts "#{dog.name}"
     end
   end
+
+
 
 end
